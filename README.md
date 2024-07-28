@@ -1,6 +1,6 @@
  Clothes online shop with Next JS
 
-See the codes in branch master
+***See the codes in branch master***
 
 Project as live here :https://shopy.liara.run/products-list
 
