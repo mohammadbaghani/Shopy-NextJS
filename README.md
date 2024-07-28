@@ -8,4 +8,4 @@ Project as live here :https://shopy.liara.run/products-list
 
 **برای دیدن کدها لطفا به برنچ مستر بروید** 
 
-پروژه به صورت لایو اینجا قابل مشاهده است : https://shopy.liara.run/products-list
+پروژه به صورت لایو اینجا : https://shopy.liara.run/products-list
