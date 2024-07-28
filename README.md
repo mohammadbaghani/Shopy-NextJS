@@ -6,6 +6,6 @@ Project as live here :https://shopy.liara.run/products-list
 
 فروشگاه لباس با نکست 
 
-برای دیدن کدها لطفا به برنچ مستر بروید 
+**برای دیدن کدها لطفا به برنچ مستر بروید** 
 
 پروژه به صورت لایو اینجا قابل مشاهده است : https://shopy.liara.run/products-list
