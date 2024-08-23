@@ -2,10 +2,10 @@
 
 ***See the codes in branch master***
 
-Project as live here :https://shopy.iran.liara.run
+Project as live here :https://shopy.liara.run
 
 فروشگاه لباس با نکست 
 
 ***برای دیدن کدها لطفا به برنچ مستر بروید*** 
 
-پروژه به صورت لایو اینجا : https://shopy.iran.liara.run
+پروژه به صورت لایو اینجا : https://shopy.liara.run
