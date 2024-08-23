@@ -2,7 +2,7 @@
 
 ***See the codes in branch master***
 
-Project as live here :https://shopy.liara.run
+Project as live here :shopy.liara.run
 
 فروشگاه لباس با نکست 
 
