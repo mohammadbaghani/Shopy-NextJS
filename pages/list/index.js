@@ -8,14 +8,11 @@ import React, { useEffect, useState } from "react";
 import db from "../../data/dummy-backend";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { AiFillEye } from "react-icons/ai";
 import { IoStar } from "react-icons/io5";
-import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import Link from '@mui/material/Link';
-import { motion, transform } from "framer-motion";
+import { motion} from "framer-motion";
 import { MdOutlineMenu } from "react-icons/md";
 import BeatLoader from "react-spinners/BeatLoader";
 function Home(props) {

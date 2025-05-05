@@ -30,6 +30,7 @@ import {
     MOUSE_ACTIVATION,
     TOUCH_ACTIVATION
 } from "react-image-magnifiers";
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 function ProductDetailPage(props) {
     const { loadedProduct } = props;
     const [backgrounimage, setBackgrounimage] = useState('abi');
@@ -186,67 +187,90 @@ function ProductDetailPage(props) {
 
     return (
         <Fragment >
-
-        
-                            <div className='parent-mag'>
-                    {['right'].map((anchor) => (
-                        <React.Fragment key={anchor}>
-                            <Button onClick={toggleDrawer(anchor, true)} className='child-mag'>برای بزرگنمایی
+            <div className='parent-mag'>
+                {['right'].map((anchor) => (
+                    <React.Fragment key={anchor}>
+                        <Button onClick={toggleDrawer(anchor, true)} className='child-mag'>برای بزرگنمایی
                             کلیک کنید
-                            
+
                             <FcSearch className='mag-icon' />
-                            
-                            </Button>
-                            <Drawer
-                                anchor={anchor}
-                                open={state[anchor]}
-                                onClose={toggleDrawer(anchor, false)}>
-                                <Box
-                                    sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
-                                    role="presentation"
-                                    onClick={toggleDrawer(anchor, false)}
-                                    onKeyDown={toggleDrawer(anchor, false)} >
-                                    <p className='mag'>
-                                        برای بزرگنمایی موس را روی عکس ببرید
-                                    </p>
-                                    <GlassMagnifier
-                                        imageSrc={loadedProduct.image3}
-                                        imageAlt="Example"
-                                        magnifierSize={'60%'}
-                                        largeImageSrc={loadedProduct.image3}
-                                        className="imagemagnify" />
 
-                                </Box>
-                            </Drawer>
-                        </React.Fragment>
-                    ))}
-                </div>
+                        </Button>
 
 
+
+
+                        <Drawer
+                            anchor={anchor}
+                            open={state[anchor]}
+                            onClose={toggleDrawer(anchor, false)}>
+                            <Box
+                                sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 250 }}
+                                role="presentation"
+                                onClick={toggleDrawer(anchor, false)}
+                                onKeyDown={toggleDrawer(anchor, false)} >
+                                <p className='mag'>
+                                    برای بزرگنمایی موس را روی عکس ببرید
+                                </p>
+                                <GlassMagnifier
+                                    imageSrc={loadedProduct.image3}
+                                    imageAlt="Example"
+                                    magnifierSize={'60%'}
+                                    largeImageSrc={loadedProduct.image3}
+                                    className="imagemagnify" />
+
+                            </Box>
+                        </Drawer>
+
+
+
+
+
+
+
+
+
+                    </React.Fragment>
+
+
+
+                ))}
+
+
+
+
+            </div>
 
             <Head>
                 <title>
                     {loadedProduct.title}
                 </title>
             </Head>
+
+      
             <MainHeadercopy />
+
+
+            <div role="presentation" >
+              <Breadcrumbs aria-label="breadcrumb" className='breadcramptow' separator={<NavigateBeforeIcon fontSize="small" />} >
+                <Link underline="hover" color="inherit" href={`../firstpage`} className='breadcramp sec-cramp'>
+                  خانه
+                </Link>
+                <Link
+                  underline="hover"
+                  color="inherit"
+                  href={`../list`}
+                  className='breadcramp sec-cramp'>
+                  خرید آنلاین
+                </Link>
+                <Typography sx={{ color: 'text.primary' }} className='breadcramp sec-cramp'>{loadedProduct.title}</Typography>
+              </Breadcrumbs>
+            </div>
+
+
     
 
-            <div role="presentation" onClick={handleClick} >
-                <Breadcrumbs aria-label="breadcrumb" className='breadcramptow'>
-                    <Link underline="hover" color="inherit" href={`../firstpage`} className='breadcramp'>
-                        خانه
-                    </Link>
-                    <Link
-                        underline="hover"
-                        color="inherit"
-                        href={`../list`}
-                        className='breadcramp sec-cramp'>
-                        خرید آنلاین
-                    </Link>
-                    <Typography sx={{ color: 'text.primary' }} className='breadcramp sec-cramp'>{loadedProduct.title}</Typography>
-                </Breadcrumbs>
-            </div>
+
             <div className={backgrounimage}>
                 <div className='tem'>
 
@@ -341,6 +365,8 @@ function ProductDetailPage(props) {
                             </SwiperSlide>
                         </div>
                     </Swiper>
+
+                    
                     <div className={c.sweetschild}>
                         <div className={firstthem ? c.textfour : c.textfourx}>
                         </div>
@@ -387,18 +413,6 @@ function ProductDetailPage(props) {
                                 سایز و رنگ محصول را انتخاب نمایید
                             </p>
 
-
-
-
-
-
-
-
-
-
-
-
-                     
                         </div>
                         <div className='choose-color'>
                             <button className={colorchose ? loadedProduct.color4 : loadedProduct.color2} onClick={chose3}>

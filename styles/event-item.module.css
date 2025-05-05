@@ -142,21 +142,23 @@
   .img2,
   .img {
     display: flex;
-    top: -11.85px;
-    height: 325px !important;  
-    right: 10px !important;
-    left: -14px !important;
+    top: 9px;
+    height: 294px !important;  
+    right: 0px !important;
+    left: 0px !important;
     position: absolute !important;
     margin-right: auto !important;
     margin-left: auto !important;
     padding: 0 !important;
-    width: 109% !important;
+    width: 92% !important;
     min-width: 200px !important;
-    transform: scale(.89) !important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    transform: scale(1) !important;
     z-index: 44 !important;
     border-radius:1.5px !important;
     overflow: hidden;
-    filter: contrast(120%) grayscale(0%);
+    filter: contrast(130%) grayscale(0%);
     background-color: transparent !important;  
     opacity: 1 !important;
     display: flex !important;
@@ -198,13 +200,12 @@
     position: relative;
     height: 456px;
     border-radius: 0px;
-    transition: all .1s !important;
     border-radius: 0px !important;
     background-color: rgb(255, 255, 255) !important;
     overflow: hidden !important;
     transform: scale(1) !important;
     border: 1px solid rgb(226, 226, 226);
-    transition: all .02s !important;
+    transition: all .05s !important;
     filter: brightness(100%);  
   }
 
@@ -236,8 +237,8 @@
 
   .item:hover {
     cursor: pointer;
-    transition: all .25s !important;
-    border: 1px solid rgb(134, 134, 134);
+    transition: all .05s !important;
+    border: 1px solid rgb(19, 18, 18);
   }
 
   .eye {

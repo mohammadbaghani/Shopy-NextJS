@@ -1,4 +1,5 @@
-@media (min-width:365px) {
+
+@media (min-width:176px) {
   .description {
     font-family: 'dana';
     padding: 10px 30px 10px 30px;
@@ -66,21 +67,19 @@
 
 
   .sweetschild {
-    background-color: transparent;
     display: flex;
     padding-top: 80px;
     top: 25px;
     position: absolute;
     padding-left: 134px;
-    width: 80% !important;
-    min-width: 950px !important;
+    width: 100% !important;
     height: 800px !important;
     border-radius: 0px !important;
-    right: 370px !important;
-    left: 110px !important;
+    right: 0px !important;
+    left: 0px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    transform: scale(1.35);
+    transform: scale(1);
   }
 
   .text,
@@ -187,8 +186,28 @@
   right: -91px !important;
 }
 }
-
 @media (min-width: 768px) {
+
+
+  
+  .sweetschild {
+    background-color: transparent;
+    display: flex;
+    padding-top: 80px;
+    top: 25px;
+    position: absolute;
+    padding-left: 134px;
+    width: 80% !important;
+    min-width: 950px !important;
+    height: 800px !important;
+    border-radius: 0px !important;
+    right: 370px !important;
+    left: 110px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    transform: scale(1.35);
+  }
+
 
 
   .textimage {
