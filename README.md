@@ -10,7 +10,7 @@ MUI Material , AOS , React-Paralex-Tilt , React-bootstrap , React-image-magnifie
 <br>
 </br>
 
-clothing store I developed by Next JS
+Clothing store I developed by Next JS
 <br>
 </br>
 Link of project https://shopy.liara.run/list
