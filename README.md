@@ -14,6 +14,6 @@ clothing store I developed by Next JS
 <br>
 </br>
 Link of project https://shopy.liara.run/list
-![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/Screenshot_2025_01_11-9.png)
+![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/Screenshot_2025_05_10-5.png)
 
 
