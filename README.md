@@ -9,7 +9,7 @@
 Clothing store I developed by Next JS
 <br>
 </br>
-Technologies: MUI Material,AOS,React-Paralex-Tilt,React-bootstrap,React-image-magnifier,framer-motion,Swiper
+Technologies:Next JS,MUI Material,AOS,React-Paralex-Tilt,React-bootstrap,React-image-magnifier,framer-motion,Swiper
 <br>
 </br>
 Live Demo: https://shopy.liara.run/list
