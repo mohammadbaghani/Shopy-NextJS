@@ -13,6 +13,8 @@ Technologies: MUI Material,AOS,React-Paralex-Tilt,React-bootstrap,React-image-ma
 <br>
 </br>
 Live Demo: https://shopy.liara.run/list
+<br>
+</br>
 ![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/Screenshot_2025_05_10-5.png)
 
 
