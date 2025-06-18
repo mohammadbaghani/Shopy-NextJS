@@ -1,6 +1,6 @@
 فروشگاه لباس با Next JS زدم
 
-لینک پروژه: ⭐ https://shopy.liara.run/list ⭐
+لینک پروژه ⭐ https://shopy.liara.run/list ⭐
 <br>
 </br>
 
