@@ -15,6 +15,6 @@ Technologies:Next JS,MUI Material,AOS,React-Paralex-Tilt,React-bootstrap,React-i
 Live Demo ⭐ https://shopy.liara.run/list ⭐
 <br>
 </br>
-![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/Screenshot_2025_01_11-9.png)
+![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/Screenshot_2025_01_11-9.png).
 
 
