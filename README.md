@@ -1,4 +1,4 @@
-Clothing store website by Next JS
+Clothing store website with Next JS
 <br>
 </br>
 Technologies Used:
