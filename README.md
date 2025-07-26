@@ -17,7 +17,6 @@ Live Demo ⭐ https://shopy.liara.run/list ⭐
 
 <br>
 </br>  
-![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/raw/main/Screenshot_2025_01_11-9.png)
-
+![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/raw/main/mm.png)
 
 
