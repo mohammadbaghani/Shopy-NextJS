@@ -4,10 +4,10 @@ Clothing store website with Next JS
 Technologies Used:
 <br>
 </br>
-Next JS,MUI Material,AOS,React-Paralex-Tilt,React-bootstrap
+NextJS,MUIMaterial,AOS,React-Paralex-Tilt,Swiper
 <br>
 </br>
-React-image-magnifier,framer-motion,Swiper
+React-bootstrap,React-image-magnifier,framer-motion
 <br>
 </br>
 Live Demo ⭐ https://shopy.liara.run/list ⭐
