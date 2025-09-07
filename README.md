@@ -18,10 +18,10 @@ Live Demo ⭐ https://shopy.liara.run/list ⭐
 <br>
 </br>    
 
-![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/nbn.png)
+![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/public/nbn.png)
 <br>
 </br>    
 
-![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/image.png)
+![alt text](https://github.com/mohammadbaghani/Shopy-NextJS/blob/main/public/image.png)
 
 
