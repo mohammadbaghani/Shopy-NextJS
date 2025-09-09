@@ -1,7 +1,7 @@
 Clothing store by Next JS
 <br>
 </br>
-Technologies Used:NextJS,MUIMaterial,AOS,React-Paralex-Tilt
+Technologies:NextJS,MUIMaterial,AOS,React-Paralex-Tilt
 <br>
 </br>
 React-bootstrap,React-image-magnifier,framer-motion,Swiper
