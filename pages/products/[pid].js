@@ -226,6 +226,9 @@ function ProductDetailPage(props) {
 
                             <FcSearch className='mag-icon' />
                         </Button>
+
+
+  
                         <Drawer
                             anchor={anchor}
                             open={state[anchor]}
@@ -287,7 +290,11 @@ function ProductDetailPage(props) {
                     </a>
                 </div>
                 <section className={sweets}>
+
+
+                         
                     <div className={backopacity}>
+                        
                     </div>
                     <Swiper style={{
                         '--swiper-navigation-color': '#fff',

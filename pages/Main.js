@@ -185,6 +185,8 @@ function Home() {
         </title>
       </Head>
       <header>
+
+
         <div className={isActive ? navheight : navheighdarker}>
           <div className='child-nav'>
             <div >
@@ -214,6 +216,7 @@ function Home() {
           </div>
         </div>
       </header>
+
       <div className='valed-switch-parent'>
         <div className='switch-parent'>
           <Switch className={isActive ? 'switch-child' : 'switch-child'} onChange={(event) => addcolor(event)}
@@ -222,6 +225,7 @@ function Home() {
           />
         </div>
       </div>
+
       <div className={isActive ? 'title-cards' : 'title-cards title-cards-dark'} >
 
         <div className={isActive ? 'women-flipcard' : 'women-flipcard women-flipcard-dark'} >
@@ -312,31 +316,56 @@ function Home() {
           </div>
         </div>
       </div>
+
+
       <div className={isActive ? 'title-cards card-tow' : 'title-cards card-tow title-cards-dark'} >
 
         <div className={isActive ? 'women-flipcard' : 'women-flipcard women-flipcard-dark'} >
 
-          <div className={isActive ? 'left-icons' : 'left-icons dark-icons'}  >
-            <BsPeopleFill className={isActive ? 'my-icons' : 'my-icons dark-icons'} />
-            +2300
-            <br>
-            </br>
-            <div className={isActive ? 'opp' : 'opp dark-opp'}>
-              عضو گروه مشتریان
-            </div>            </div>
 
-          <div className={isActive ? 'right-icons' : 'right-icons dark-icons'} >
+          <div className={isActive ? 'left-icons ' : 'left-icons dark-icons '}  >
+            <div  className={isActive ? 'inner ' : 'inner dark-inner'}  > 
+              <BsPeopleFill className={isActive ? 'my-icons' : 'my-icons dark-icons'} />
 
-            <CheckCircleOutlineIcon className={isActive ? 'big-icons' : 'big-icons dark-icons'} />
-            +15
-            <br>
-            </br>
-            <div className={isActive ? 'opp' : 'opp dark-opp'} >
-              سال تجربه
+              <div className='valedopp'>
+                <div className={isActive ? 'opp' : 'opp dark-opp'}>
+                  عضو گروه مشتریان
+                </div>
+
+                <div className={isActive ? 'opp' : 'opp dark-opp'}>
+                  +2300
+                </div>
+              </div>
+
+
             </div>
           </div>
+
+
+
+          <div className={isActive ? 'left-icons ' : 'left-icons dark-icons '}  >
+   <div  className={isActive ? 'inner ' : 'inner dark-inner'}  > 
+              <CheckCircleOutlineIcon className={isActive ? 'big-icons' : 'big-icons dark-icons'} />
+
+              <div className='valedopp'>
+                <div className={isActive ? 'opp' : 'opp dark-opp'}>
+                  سال تجربه
+                </div>
+                <div className={isActive ? 'opp' : 'opp dark-opp'}>
+                  +15
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
         </div>
       </div>
+
+
+
       <div className={isActive ? 'parent-articles' : 'parent-articles black-res'}>
         <p className={isActive ? 'magazine' : 'magazine magazine-whitecolor'}>
           مجله  شیک پوشان

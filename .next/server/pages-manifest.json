@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/firstpage": "pages/firstpage.js",
+  "/products/[pid]": "pages/products/[pid].js",
   "/list": "pages/list.js",
-  "/Callus": "pages/Callus.js",
-  "/firstpage": "pages/firstpage.js"
+  "/": "pages/index.js"
 }
