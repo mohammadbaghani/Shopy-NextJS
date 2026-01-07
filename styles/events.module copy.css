@@ -1,0 +1,514 @@
+
+@media (min-width:56px) {
+  .description {
+    font-family: 'dana';
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    text-align: right;
+    direction: rtl;
+    top: 230px;
+    justify-content: center;
+    background-color: beige;
+    width: 100% !important;
+    height: 500px;
+    line-height: 50px;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: 0px !important;
+  }
+
+  .image {
+    z-index: 10;
+    display: flex;
+    top: 50px;
+    height: 400px;
+    border-radius: 0% !important;
+    left: 0px;
+    overflow: hidden !important;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: 40px !important;
+    margin-left: auto !important;
+    width: 500px !important;
+
+    justify-self: flex-start;
+  }
+
+
+
+  .textfour {
+    top: -1px !important;
+    font-family: 'IRY' !important;
+    z-index: 5555555;
+    font-weight: 400 !important;
+    font-size: 20px;
+    color: #ffffff !important;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    height: 60px !important;
+    justify-content: flex-start;
+    padding-right: 130px;
+    position: absolute !important;
+    margin-right: 540px !important;
+    margin-left: auto !important;
+    left: 0px;
+    direction: rtl;
+    border-radius: 4px;
+    right: -969px !important;
+    background-color: transparent !important;
+  }
+
+  
+
+
+
+  .sweetschild {
+    display: flex;
+    padding-top: 80px;
+    top: 5px;
+    position: absolute;
+    padding-left: 134px;
+width: 483px !important;
+    height: 800px !important;
+    border-radius: 0px !important;
+    right: 0px !important;
+    left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    transform: scale(1);
+  }
+
+  .text,
+  .textone,
+  .texttow,
+  .texthree,
+  .textprice,
+  .texttooman,
+  .textgheimat {
+    font-family: 'IRY'!important;
+    z-index: 5555555;
+    font-weight: 500 !important;
+    font-size: 15.5px;
+    color: #000000 !important;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+    text-align: right;
+    position: absolute;
+    height: 40px !important;
+    top: 32px !important;
+    justify-content: center;
+    padding-right: 0px;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: 0px;
+    border-radius: 0px !important;
+    margin-top: 39px;
+       font-size:11px !important;
+     font-family: 'iranyekan'!important;
+
+  }
+
+  
+
+
+  .textgheimat {
+    right: 200px !important;
+
+    justify-self: flex-start !important;
+    border: none !important;
+    width: 30% !important;
+    top: -32px !important;
+    position: absolute !important;    
+
+ 
+  }
+
+  .textprice {
+    right: 240px !important;
+    color: #000000 !important;
+       font-size:9px !important;
+    width: -moz-fit-content;
+    width: fit-content;
+    top: -27px !important;
+    position: absolute !important;
+    height: 25px !important;
+    border-radius: 1px !important;
+    font-weight: 500 !important;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+    justify-content: center;
+    background-color: transparent;
+    letter-spacing: -1px;
+    padding: 7px 1px 3px;
+  word-spacing: -2px!important;
+     font-family: 'IRY'!important;  
+  
+  }
+
+  
+  .texttooman {
+    right: 300px !important;
+    left: 0px;
+    justify-self: flex-end !important;
+    border: none !important;     
+    width: 30% !important;
+    top: -32px !important;    font-size: 10px!important;
+    position: absolute !important;    
+
+ 
+  }
+
+  .textone {
+    top: 175px !important;
+    color: transparent !important;
+  }
+
+
+  .texttow {
+ font-family: 'iranyekan'!important;
+         top: 88px !important;
+        left: -371px !important;      
+    background-color:transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3px;
+
+  
+}
+
+.text {
+  top: 52px !important;
+  right: 0px !important;
+}
+}
+@media (min-width: 768px) {
+
+
+  
+  .sweetschild {
+    background-color: transparent;
+    display: flex;
+    padding-top: 80px;
+    top: 12px;
+    position: absolute;
+    padding-left: 134px;
+    width: 80% !important;
+    min-width: 950px !important;
+    height: 800px !important;
+    border-radius: 0px !important;
+    right: 320px !important;
+    left: -60px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    transform: scale(1.15);
+  }
+
+
+
+  .textimage {
+    position: absolute;
+    right: 10px;
+
+    transform: scale(1.1);
+  }
+
+
+
+  .textfour {
+    top: 267px !important;
+    right: -918px !important;
+    font-family: 'IRY' !important;
+    z-index: 5555555;
+    font-weight: 400 !important;
+    font-size: 20px;
+    width: 343px;
+    margin-top: 47px;
+    height: 65px !important;
+    padding-right: 130px;
+    margin-right: 540px !important;
+    margin-left: auto !important;
+    left: 0px;
+    direction: rtl;
+    border-radius: 0px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+  }
+
+  .image {
+    z-index: 10;
+    display: flex !important;
+    height: 400px;
+    border-radius: 10% !important;
+    left: initial !important;
+    top: -156px !important;
+    right: -140px !important;
+    position: absolute !important;
+    margin-right: initial !important;
+    margin-left: initial !important;
+    width: 400px !important;
+    justify-self: flex-start !important;
+    transform: scale(.19);
+
+  }
+
+  .imagebody {
+    z-index: 10;
+    display: flex !important;
+    height: 600px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -500px !important;
+    right: 0px !important;
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 700px !important;
+    opacity: 1;
+    justify-self: flex-start !important;
+  }
+
+  .after {
+    z-index: 10;
+    display: flex !important;
+    height: 600px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -256px !important;
+    right: 0px !important;
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 90% !important;
+    opacity: 1;
+    content: '';
+    background-color: red;
+    justify-self: flex-start !important;
+  }
+
+  .after:before {
+    z-index: 10;
+    display: block !important;
+    height: 600px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -56px !important;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 90% !important;
+    opacity: 1;
+    content: '';
+    background-color: rgb(25, 0, 255);
+    justify-self: flex-start !important;
+
+  }
+
+
+  .description {
+    display: flex;
+    background-color: beige;
+    width: 90% !important;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: 0px;
+    max-width: 1200px;
+    height: 300px;
+    top: 376px;
+    padding: 10px 30px 10px 30px;
+  }
+
+
+
+}
+
+@media (min-width:992px) {
+
+  .sweetschild {
+  transform: scale(1.35) !important;
+  top:-8px;
+    right: 320px !important;
+    left: 40px !important;
+  }
+
+  .textimage {
+    position: absolute;
+    right: 10px;
+    transform: scale(1.1);
+  }
+
+  .textgheimatx {
+    right: -113.5px !important;
+    font-size: 11px !important;
+    justify-self: flex-start !important;
+    border: none !important;
+    width: 30% !important;
+    top: -40px !important;
+    position: absolute !important;    
+        font-family: 'iranyekan'!important;
+      
+  }
+
+
+  .image {
+    z-index: 10;
+    display: flex !important;
+    height: 500px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: 0px !important;
+    right: 0px !important;
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 500px !important;
+    opacity: .02;
+    justify-self: flex-start !important;
+    filter: brightness(3);
+  }
+
+  .imagebody {
+    z-index: 10;
+    display: flex !important;
+    height: 500px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -200px !important;
+    right: 0px !important;
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 500px !important;
+    opacity: .02;
+    justify-self: flex-start !important;
+    filter: brightness(3);
+    transition: all .3s !important;
+  }
+
+  .after {
+    z-index: 10;
+    display: flex !important;
+    height: 600px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -256px !important;
+    right: 0px !important;
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 90% !important;
+    opacity: 1;
+    content: '';
+    background-color: red;
+    justify-self: flex-start !important;
+
+  }
+
+  .after:before {
+    z-index: 10;
+    display: block !important;
+    height: 600px;
+    border-radius: 10% !important;
+    left: 0px !important;
+    top: -56px !important;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    width: 90% !important;
+    opacity: 1;
+    content: '';
+    background-color: rgb(25, 0, 255);
+    justify-self: flex-start !important;
+
+
+  }
+
+  .textfour {
+    top: 180px !important;
+    border-right: none !important;
+    z-index: 55555666666666666655;
+    font-size: 18px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 65px !important;
+    justify-content: center;
+    padding-right: 10px;
+    right: -570px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: 0px;
+    direction: rtl;
+    border-radius: 0px;
+    border: 2px black !important;
+    font-family: 'IRY' !important;
+    font-weight: 700 !important;
+    border-top-right-radius: 6px;
+    color: rgb(206, 45, 45) !important;
+    border-top-left-radius: 6px;
+    transform: scale(1.15) !important;
+    background-color: transparent !important;
+  }
+
+  
+  .textfourx {   top: 180px !important;
+    border-right: none !important;
+    z-index: 55555666666666666655;
+    font-size: 18px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 65px !important;
+    justify-content: center;
+    padding-right: 10px;
+    right: -570px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: 0px;
+    direction: rtl;
+    border-radius: 0px;
+    border: 2px black !important;
+    font-family: 'IRY' !important;
+    font-weight: 700 !important;
+    border-top-right-radius: 6px;
+    color: rgb(255, 255, 255) !important;
+    border-top-left-radius: 6px;
+    transform: scale(1.15) !important;
+    background-color: transparent !important;}
+
+
+
+
+.description {
+  display: flex;
+  background-color: beige;
+  width: 90% !important;
+  right: 0px !important;
+  position: absolute !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  left: 0px;
+  max-width: 1200px;
+  height: 300px;
+  top: 376px;
+  padding: 10px 30px 10px 30px;
+}
+
+}

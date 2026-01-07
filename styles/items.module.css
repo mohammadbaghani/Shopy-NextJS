@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'dana';
+  src: url(../fonts/Tanha.woff2) format('woff2'),
+    url(../fonts/Tanha.woff) format('woff'),
+    url(../fonts/Pinar.otf) format('otf');
+
+}
+
+.content {
+  width: 100%;
+  padding: 210px 1rem;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(7, 7, 7);
+  font-family: 'dana';
+}
+
+
+.content time {
+  color: #666666;
+
+}
+
+.content address {
+  margin: 0.5rem 0;
+  color: #666666;
+  white-space: pre;
+}
+
+.actions a span {
+  vertical-align: middle;
+}
+
+.icon {
+  margin-left: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+
+@media (min-width:56px) {
+
+
+  .pricetext {
+    top: 356px !important;
+    z-index: 55555666666666666655;
+    background-color: transparent !important;
+    font-weight: 400 !important;
+    font-size: 12.1px;
+    color: rgb(51, 51, 51) !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+    height: 24px !important;
+    justify-content: flex-start;
+    right: 0px !important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: -36px;
+    direction: rtl;
+    border-radius: 5px;
+    font-family: 'takh' !important;
+    padding: 0px 0px !important;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    padding-right: 14px !important;
+    transform: scale(1.1);
+  }
+
+  .details {
+    position: absolute;
+    color: #000000 !important;
+    background-color: transparent !important;
+    text-align: center;
+    height: 24px;
+    justify-content: flex-end;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    align-items: center !important;
+    z-index: 5555555555 !important;
+    opacity: 1;
+    border-radius: 0px !important;
+    width: 100% !important;
+    right: 0px !important;
+    min-width: auto !important;
+    padding: 0px !important;
+    padding-right: 18.3px !important;
+    word-spacing: -2px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    left: -18px !important;
+    font-family: 'IRY';
+    top: 435.95px !important;
+    transition: all .2s;
+    display: flex !important;
+    border: 0px solid black;
+    transform: scale(1.03);
+        direction: ltr !important;
+  }
+
+
+
+  .img2,
+  .img {
+    display: flex;
+    top: -5.85px;
+    height: 355px !important;  
+    right: 10px !important;
+    left:0px!important;
+    position: absolute !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    padding: 0 !important;
+    width: 100% !important;
+    min-width: 200px !important;
+    transform: scale(.8) !important;
+    z-index: 44 !important;
+    border-radius:1.5px !important;
+    overflow: hidden;
+    filter: contrast(130%) grayscale(0%);
+    background-color: transparent !important;  
+    opacity: 1 !important;
+    display: flex !important;
+    transition: all .4s !important;
+    box-sizing:content-box!important;
+    transition-delay: all 1s !important;
+  }
+
+  .img {
+    transition: all .4s !important;
+    z-index: 1 !important;
+    opacity: 0 !important;
+  }
+  .item:hover .img2 {
+    transition: all .15s !important;
+    transition-delay: all 4s !important;
+    opacity: 0 !important; 
+  }
+
+
+  .item:hover .img {
+    transition: all .2s !important;
+    transition-delay: all 5s !important;
+    opacity: 1 !important;
+
+  }
+
+  .item {
+    display: flex !important;
+    flex-direction: row;
+    margin-bottom: -90px;
+    margin-top: 160px;
+    top: -160px;
+    z-index: 4442 !important;
+    width: 307px !important;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    position: relative;
+    height: 474px;
+
+    border-radius: 4px !important;
+    background-color: rgb(255, 255, 255) !important;
+    overflow: hidden !important;
+    border: .5px solid rgb(233, 233, 233);
+    transition: all .02s !important;
+    filter: brightness(100%);  
+    transform: scale(.9)!important;
+  }
+
+  .item::before {
+    display: flex !important;
+    flex-direction: row;
+    margin-bottom: -90px;
+    margin-top: 160px;
+    top: -164px;
+    z-index: 0;
+    width: 290px !important;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    position: absolute !important;
+    height: 455px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: all .1s !important;
+    border-radius: 6px !important;
+    background-color: transparent !important;
+    overflow: hidden !important;
+    transform: scale(1) !important;
+    border: 1px solid transparent;
+    transition: all .2s !important;
+    transform: scale(1) !important;
+    content: '' !important;
+  }
+
+  .item:hover {
+    cursor: pointer;
+    transform: scale(.7);
+    transition: all .01s !important;
+    border: 1px solid rgb(80, 80, 80);
+  }
+
+  .eye {
+    opacity: 1 !important;
+    width: 21px !important;
+    border-radius: 0px !important;
+    height: 142px !important;
+    z-index: 5555555555;
+    top: -60px !important;
+    position: absolute !important;
+    display: flex !important;
+    color: #ecd500 !important;
+    transform: scale(.88);
+    left: unset !important;
+   margin-right: 36px !important;
+  }
+
+  .details:hover .eye {
+    color: #e7b016 !important;
+    transition: all .1s !important;
+  }
+
+  .content {
+    padding-top: 289px;
+    text-align: center;
+    font-size: 16px;
+    word-spacing: 0;
+    z-index: 3333333 !important;
+    color: #000000 !important;
+    font-family: 'dana';
+    font-weight: 400;
+  }
+
+  .details:hover {
+    transition: all .03s !important;
+    color: rgb(0, 0, 0) !important;
+  }
+
+}
+
+
+
+
+@media (min-width: 356px) {
+
+ .item {
+ 
+    transform: scale(1)!important;
+
+
+}
+}
+
+
+
+@media (min-width:576px) {
+  
+  .item { 
+    transform: scale(1.05)!important;
+    width: 321px !important;
+   
+  }
+
+
+  .imagebody {
+    z-index: 1;
+    display: flex !important;
+    height: 500px;
+    border-radius: 3px !important;
+    top: 98px !important;
+    right: 6px !important;
+    position: absolute !important;
+    margin-left: auto !important;
+    width: 480px !important;
+    border: 1px solid rgb(233, 233, 233);
+    justify-self: flex-start !important;
+  }
+
+
+}

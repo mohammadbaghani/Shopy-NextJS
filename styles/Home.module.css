@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'dana';
+  src: url(../fonts/Tanha.woff2) format('woff2'),
+    url(../fonts/Tanha.woff) format('woff'),
+    url(../fonts/Pinar.otf) format('otf');
+
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.details:active {
+  transform: scale(.97);
+
+}
+
+
+
+@media (min-width: 56px) {
+  .details {
+    width: 40px;
+    color: #000000;
+    border-radius: 0px;
+    font-family: 'dana' !important;
+    text-align: center;
+    height: 50px;
+    padding-top: -5px !important;
+    margin-top: 76px;
+    position: absolute;
+    right: -23px;
+    top: 130px !important;
+    z-index: 1;
+    font-size: 13px;
+    left: 0px;
+    padding-bottom: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 40px !important;
+
+  }
+
+  .container {
+    height: 2000px;
+    position: relative;
+    top:0px;
+    background-color:transparent;
+  }
+
+  .details:active {
+    transition: all .5;
+    transform: scale(.97);
+
+  }
+  .containerblack {
+    background-color:black !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    height: 2000px;
+    position: relative;
+    top: 0px;
+    background-color: transparent !important;
+  }
+  .containerblack {
+    background-color:black !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .container   .containerblack {
+    height: 2000px;
+    position: relative;
+    top: 0px;
+        background-color: transparent !important;
+        padding-top: 0px;
+
+
+  }
+  .containerblack {
+    background-color:black !important;
+  }
+}
