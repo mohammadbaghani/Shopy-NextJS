@@ -1,7 +1,7 @@
 Clothing store website by Next JS
 <br>
 </br>
-Technologies:NextJS,MUI,AOS,React-Paralex-Tilt,React-bootstrap,React-image-magnifier,framer-motion,Swiper
+Technologies: NextJS,MUI,AOS,React-Paralex-Tilt,React-bootstrap,React-image-magnifier,framer-motion,Swiper
 <br>
 </br>
 Live Demo ⭐ https://shopy.liara.run/list ⭐
